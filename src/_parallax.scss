@@ -1,4 +1,5 @@
 @use "variables";
+@use "mixins" as *;
 
 // Parallax
 $parallax-deg: 3deg !default;

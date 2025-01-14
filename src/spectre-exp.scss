@@ -1,8 +1,8 @@
 // Variables and mixins
-@use "variables";
-@use "mixins";
+@use "variables" as *;
+@use "mixins" as *;
 
-/*! Spectre.css Experimentals v#{variables.$version} | MIT License | github.com/picturepan2/spectre */
+/*! Spectre.css Experimentals v#{$version} | MIT License | github.com/picturepan2/spectre */
 // Experimentals
 @use "autocomplete";
 @use "calendars";

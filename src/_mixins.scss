@@ -8,3 +8,13 @@
 @use "mixins/shadow";
 @use "mixins/text";
 @use "mixins/toast";
+
+@forward "mixins/avatar";
+@forward "mixins/button";
+@forward "mixins/clearfix";
+@forward "mixins/color";
+@forward "mixins/label";
+@forward "mixins/position";
+@forward "mixins/shadow";
+@forward "mixins/text";
+@forward "mixins/toast";
