@@ -1,0 +1,12 @@
+/* This test file helps check for Sass deprecation warnings across all Spectre components.
+It imports all three main Spectre SCSS files to trigger compilation of the entire codebase.
+
+Run the test with:
+  sass test/test.scss:dist/test.css
+
+The compiler will show any warnings or errors found in any imported files.
+The actual output CSS (dist/test.css) can be ignored - we only care about the warnings. */
+
+@use "../src/spectre.scss";
+@use "../src/spectre-exp.scss";
+@use "../src/spectre-icons.scss";
