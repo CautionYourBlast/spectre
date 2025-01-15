@@ -28,7 +28,7 @@
     border: 0;
     border-radius: 50%;
     height: variables.$unit-3;
-    margin-top: -(variables.$unit-3 - variables.$unit-h) / 2;
+    margin-top: -(variables.$unit-3 - variables.$unit-h) * 0.5;
     transition: transform .2s;
     width: variables.$unit-3;
   }
