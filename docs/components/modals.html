@@ -248,19 +248,19 @@
               Spectre.css does not include JavaScript code, you will need to implement your JS to interact with modals.
               To make a modal appear, add the <code>active</code> class to the <code>modal</code> container.
             </p>
-            <pre class="code" data-lang="HTML"><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"modal active"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"modal-id"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#close"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"modal-overlay"</span> <span class="hljs-attr">aria-label</span>=<span class="hljs-string">"Close"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"modal-container"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"modal-header"</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#close"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-clear float-right"</span> <span class="hljs-attr">aria-label</span>=<span class="hljs-string">"Close"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"modal-title h5"</span>&gt;</span>Modal title<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <pre class="code" data-lang="HTML"><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;modal active&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;modal-id&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#close&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;modal-overlay&quot;</span> <span class="hljs-attr">aria-label</span>=<span class="hljs-string">&quot;Close&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;modal-container&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;modal-header&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#close&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;btn btn-clear float-right&quot;</span> <span class="hljs-attr">aria-label</span>=<span class="hljs-string">&quot;Close&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;modal-title h5&quot;</span>&gt;</span>Modal title<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"modal-body"</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"content"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;modal-body&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;content&quot;</span>&gt;</span>
         <span class="hljs-comment">&lt;!-- content here --&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"modal-footer"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;modal-footer&quot;</span>&gt;</span>
       ...
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -334,9 +334,9 @@
             <p>Use the <code>modal-lg</code> class for a full size modal.
               The container max width is <code>960px</code>.
             </p>
-            <pre class="code" data-lang="HTML"><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"modal modal-sm"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#close"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"modal-overlay"</span> <span class="hljs-attr">aria-label</span>=<span class="hljs-string">"Close"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"modal-container"</span>&gt;</span>
+            <pre class="code" data-lang="HTML"><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;modal modal-sm&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#close&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;modal-overlay&quot;</span> <span class="hljs-attr">aria-label</span>=<span class="hljs-string">&quot;Close&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;modal-container&quot;</span>&gt;</span>
     <span class="hljs-comment">&lt;!-- modal structure here --&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
