@@ -1,5 +1,9 @@
 #### Spectre.css Changelog
 
+##### v0.7.1 [#]()
+
+- Fix: accidentally published old version with 0.7.0
+
 ##### v0.7.0 [#]()
 
 - IMPORTANT: Complete modernization of Sass syntax:
