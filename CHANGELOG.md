@@ -1,5 +1,25 @@
 #### Spectre.css Changelog
 
+##### v0.7.0 [#]()
+
+- IMPORTANT: Complete modernization of Sass syntax:
+    - Migration from @import to @use/@forward across all components
+    - Update remaining division operations to math.div
+    - Update color functions to modern syntax (replacing deprecated darken/lighten)
+- Add comprehensive test file to catch deprecation warnings across all components
+- Fix build system dependencies:
+    - Update gulp-sass and autoprefixer
+    - Fix file generation in /dist and /docs/dist
+    - Update highlight.js via pnpm overrides
+
+##### v0.6.0 [#]()
+
+- Fork from picturepan2/spectre to @cautionyourblast/spectre.css
+- Initial modernization of Sass syntax:
+    - Update division operations to math.div in core components
+    - Migration focused on spectre.scss entrypoint
+- Publish to npm under @cautionyourblast organization
+
 ##### v0.5.9 [#](https://github.com/picturepan2/spectre/releases/tag/v0.5.9)
 
 - Update gulp and dependencies
