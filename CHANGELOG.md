@@ -1,5 +1,10 @@
 #### Spectre.css Changelog
 
+##### v0.8.0 [#]()
+
+- Use `@forward`s in aggregate files
+- Add export section to package.json
+
 ##### v0.7.1 [#]()
 
 - Fix: accidentally published old version with 0.7.0

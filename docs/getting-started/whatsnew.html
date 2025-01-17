@@ -211,6 +211,44 @@
                 <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
               </div>
             </div><h4>Spectre.css Changelog</h4>
+<h5>v0.8.0 <a href="">#</a></h5>
+<ul>
+<li>Use <code>@forward</code>s in aggregate files</li>
+<li>Add export section to package.json</li>
+</ul>
+<h5>v0.7.1 <a href="">#</a></h5>
+<ul>
+<li>Fix: accidentally published old version with 0.7.0</li>
+</ul>
+<h5>v0.7.0 <a href="">#</a></h5>
+<ul>
+<li>IMPORTANT: Complete modernization of Sass syntax:
+<ul>
+<li>Migration from @import to @use/@forward across all components</li>
+<li>Update remaining division operations to math.div</li>
+<li>Update color functions to modern syntax (replacing deprecated darken/lighten)</li>
+</ul>
+</li>
+<li>Add comprehensive test file to catch deprecation warnings across all components</li>
+<li>Fix build system dependencies:
+<ul>
+<li>Update gulp-sass and autoprefixer</li>
+<li>Fix file generation in /dist and /docs/dist</li>
+<li>Update highlight.js via pnpm overrides</li>
+</ul>
+</li>
+</ul>
+<h5>v0.6.0 <a href="">#</a></h5>
+<ul>
+<li>Fork from picturepan2/spectre to @cautionyourblast/spectre.css</li>
+<li>Initial modernization of Sass syntax:
+<ul>
+<li>Update division operations to math.div in core components</li>
+<li>Migration focused on spectre.scss entrypoint</li>
+</ul>
+</li>
+<li>Publish to npm under @cautionyourblast organization</li>
+</ul>
 <h5>v0.5.9 <a href="https://github.com/picturepan2/spectre/releases/tag/v0.5.9">#</a></h5>
 <ul>
 <li>Update gulp and dependencies</li>

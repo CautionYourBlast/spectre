@@ -1,50 +1,49 @@
 // Variables and mixins
-@use "variables" as *;
-@use "mixins" as *;
+@forward "variables";
 @forward "mixins";
-
-/*! Spectre.css v#{$version} | MIT License | github.com/picturepan2/spectre */
+@use "variables";
+/*! Spectre.css v#{variables.$version} | MIT License | github.com/picturepan2/spectre */
 // Reset and dependencies
-@use "normalize";
-@use "base";
+@forward "normalize";
+@forward "base";
 
 // Elements
-@use "typography";
-@use "asian";
-@use "tables";
-@use "buttons";
-@use "forms";
-@use "labels";
-@use "codes";
-@use "media";
+@forward "typography";
+@forward "asian";
+@forward "tables";
+@forward "buttons";
+@forward "forms";
+@forward "labels";
+@forward "codes";
+@forward "media";
 
 // Layout
-@use "layout";
-@use "hero";
-@use "navbar";
+@forward "layout";
+@forward "hero";
+@forward "navbar";
 
 // Components
-@use "accordions";
-@use "avatars";
-@use "badges";
-@use "breadcrumbs";
-@use "bars";
-@use "cards";
-@use "chips";
-@use "dropdowns";
-@use "empty";
-@use "menus";
-@use "modals";
-@use "navs";
-@use "pagination";
-@use "panels";
-@use "popovers";
-@use "steps";
-@use "tabs";
-@use "tiles";
-@use "toasts";
-@use "tooltips";
+@forward "accordions";
+@forward "avatars";
+@forward "badges";
+@forward "breadcrumbs";
+@forward "bars";
+@forward "cards";
+@forward "chips";
+@forward "dropdowns";
+@forward "empty";
+@forward "menus";
+@forward "modals";
+@forward "navs";
+@forward "pagination";
+@forward "panels";
+@forward "popovers";
+@forward "steps";
+@forward "tabs";
+@forward "tiles";
+@forward "toasts";
+@forward "tooltips";
 
 // Utility classes
-@use "animations";
-@use "utilities";
+@forward "animations";
+@forward "utilities";

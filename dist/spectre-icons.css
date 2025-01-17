@@ -1,4 +1,4 @@
-/*! Spectre.css Icons v0.5.9 | MIT License | github.com/picturepan2/spectre */
+/*! Spectre.css Icons v0.8.0 | MIT License | github.com/picturepan2/spectre */
 .icon {
   box-sizing: border-box;
   display: inline-block;
@@ -40,7 +40,7 @@
   vertical-align: -15%;
 }
 
-/*! Spectre.css Icons v0.5.9 | MIT License | github.com/picturepan2/spectre */
+/*! Spectre.css Icons v0.8.0 | MIT License | github.com/picturepan2/spectre */
 .icon-arrow-down::before,
 .icon-arrow-left::before,
 .icon-arrow-right::before,
@@ -137,7 +137,7 @@
   width: 3px;
 }
 
-/*! Spectre.css Icons v0.5.9 | MIT License | github.com/picturepan2/spectre */
+/*! Spectre.css Icons v0.8.0 | MIT License | github.com/picturepan2/spectre */
 .icon-resize-horiz::before,
 .icon-resize-horiz::after,
 .icon-resize-vert::before,
@@ -412,7 +412,7 @@
   width: .8em;
 }
 
-/*! Spectre.css Icons v0.5.9 | MIT License | github.com/picturepan2/spectre */
+/*! Spectre.css Icons v0.8.0 | MIT License | github.com/picturepan2/spectre */
 .icon-time {
   border: .1rem solid currentColor;
   border-radius: 50%;

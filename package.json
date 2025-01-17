@@ -3,11 +3,11 @@
   "version": "0.7.1",
   "homepage": "http://picturepan2.github.io/spectre",
   "author": "Yan Zhu <picturepan2@hotmail.com>",
-  "description": "Spectre.css: A lightweight, responsive and modern CSS framework",
+  "description": "Spectre.css: A lightweight, responsive and modern CSS framework - forked and Sass-migrated",
   "main": "dist/spectre.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/picturepan2/spectre.git"
+    "url": "https://github.com/CautionYourBlast/spectre.git"
   },
   "license": "MIT",
   "keywords": [
@@ -35,6 +35,23 @@
     "jstransformer-highlight": "^2.0.0",
     "jstransformer-markdown-it": "^3.0.0",
     "sass": "^1.83.4"
+  },
+  "exports": {
+    ".": {
+      "sass": "./src/spectre.scss"
+    },
+    "./spectre": {
+      "sass": "./src/spectre.scss"
+    },
+    "./spectre-exp": {
+      "sass": "./src/spectre-exp.scss"
+    },
+    "./spectre-icons": {
+      "sass": "./src/spectre-icons.scss"
+    },
+    "./partials/*.scss": {
+      "sass": "./src/*.scss"
+    }
   },
   "browserslist": [
     "last 4 Chrome versions",

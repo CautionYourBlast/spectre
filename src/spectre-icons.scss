@@ -1,11 +1,10 @@
 // Variables and mixins
-@use "variables" as *;
-@use "mixins" as *;
+@forward "variables";
 @forward "mixins";
-
-/*! Spectre.css Icons v#{$version} | MIT License | github.com/picturepan2/spectre */
+@use "variables";
+/*! Spectre.css Icons v#{variables.$version} | MIT License | github.com/picturepan2/spectre */
 // Icons
-@use "icons/icons-core";
-@use "icons/icons-navigation";
-@use "icons/icons-action";
-@use "icons/icons-object";
+@forward "icons/icons-core";
+@forward "icons/icons-navigation";
+@forward "icons/icons-action";
+@forward "icons/icons-object";
