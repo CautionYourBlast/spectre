@@ -4,6 +4,7 @@
 
 - Use `@forward`s in aggregate files
 - Add export section to package.json
+- Make name '@cautionyourblast/spectre' in packge file (for Sass 'pkg:@cautionyourblast/spectre` references)
 
 ##### v0.7.1 [#]()
 
